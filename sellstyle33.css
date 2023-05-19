@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif cursive;
+}
+
+.threeThree header{
+    display: grid;
+    grid-template-columns: 60% auto;
+    height: 13vh;
+    width: 100%;
+    background:#f5e28e;
+    
+
+}
+header .left{
+    display: flex;
+    padding: 1.5rem;
+}
+header .left img{
+    height: 8vh;
+    pointer-events: none;
+
+}
+header .left h1{
+    color: black;
+    font-size: 1.7rem;
+    /* font-weight: 900; */
+    text-align: center;
+    padding: 0.8rem;
+}
+header .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 9rem;
+}
+header .right img{
+    height: 6vh;
+    padding: 1rem;
+    pointer-events: none;
+    cursor: pointer;
+}
+header .right button{
+    width: 35%;
+    height: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+    height: 6vh;
+    background: whitesmoke;
+    color: blue;
+    padding: 0.65rem 1rem;
+    margin: 0.8rem;
+    cursor: pointer;
+}
+main{
+    
+    display: grid;
+    grid-template-columns: 5% 45% 45% 5%;
+}
+
+main .left{
+    
+    width: 65%;
+    
+}
+
+main .left h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+    padding: 0.7rem 0.1rem;
+}
+main .left h1{ 
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: royalblue;
+    padding: 0.3rem 0.1rem;
+    font-family: 'Lucida sans';
+}
+main .left p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.5rem 0.1rem;
+}
+main .left .button{
+    border-radius: 10px;
+    border: none;
+    background: royalblue;
+    color: white;
+    width: 60%;
+    height: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 1.3rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+main .left h4{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+main .left ul{
+    display: flex;
+    list-style: none;
+    padding-top: 0.5rem;
+}
+main .left ul li img{
+    height: 10vh;
+   
+}
+main .right{
+    display: grid;
+    grid-template-columns: auto 10%;
+    position: relative; 
+    height: 87vh;
+}
+main .right  .front{
+    position: absolute;
+    height: 83vh;
+    width: 65%;
+    top: 0;
+    padding-left: 15rem;
+    pointer-events: none;
+}
+main .right .back{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0rem;
+    height: 83vh;
+    width: 100%;
+}
+main .threeLeft img{
+    height: 4rem;
+    width: 3rem;
+    margin-top: 12rem;
+    transform: rotate(180deg);
+    
+}
+main .threeRight img{
+    height: 4rem;
+    width: 3rem;
+    padding-top: 12rem;
+
+}

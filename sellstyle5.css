@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif cursive;
+}
+.one{
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+button {
+  cursor: pointer;
+}
+#creatingTable{
+  padding-left: 4rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.mic h1{
+  margin-top: 4rem;
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+
+#d{
+  background: blue;
+  font-size: 1rem;
+  outline: none;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.ss img {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.ss {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  background-color: rgb(214, 214, 43);
+}
+.ss .ssleft {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-evenly;
+  width: 25%;
+  font-family: "Sriracha", cursive;
+}
+
+.ss .ssright {
+  width: 75%;
+  display: flex;
+  gap: 3rem;
+  justify-content: flex-end;
+  margin:2rem;
+  padding-right: 5rem;
+}
+.ssright button {
+  height: 140%;
+  width: 180%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ssdown {
+  height: 77vh;
+  display: flex;
+  width: 70%;
+  
+
+}
+.ssdown .left {
+  width: 70%;
+  margin: 5rem;
+}
+
+
+.ssdown .right{
+  width: 30%;
+  padding-left: 15rem;
+}
+.ssdown .right img{
+  align-items: center;
+}
+
+.cart table,tr,th,td{
+  border: 1.5px solid black;
+  padding: 0.3rem;
+  
+}
+

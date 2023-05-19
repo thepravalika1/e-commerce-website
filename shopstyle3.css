@@ -1,0 +1,306 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  height: 14vh;
+  /* width: 100vw; */
+  /* padding: 1rem; */
+  background-color: rgb(239, 229, 26);
+  
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 2rem; */
+}
+.header .left{
+  display: flex;
+  align-items: center;
+}
+.header .left img{
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+.header .left h2{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.header .right{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+}
+.header .right button{
+  padding: 0.4rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+#cartimg{
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+#userimg{
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+/* section five  */
+.five{
+  height: 100vh;
+}
+.gow{
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin-left: 2rem;
+}
+.gow .left h1 {
+  margin: 1rem;
+}
+.gow .right .top{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.gow .right .bottom{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  margin-top: 2rem;
+}
+#addnewproductbutton{
+  border: none;
+  padding: 0.5rem 2rem;
+  background-color: rgb(18, 61, 204);
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px 0px black;
+  cursor: pointer;
+}
+
+.products{
+  border: 1px solid blueviolet;
+  box-shadow: 0px 1.5px 1.5px 0px black;
+  width: 12rem;
+  text-align: center;
+  height: auto;
+  border-radius: 10px;
+}
+.products img{
+  height: 8rem;
+  width: 12rem;
+  padding: 0.3rem;
+  border-radius: 10px;
+}
+
+.products h4{
+  font-size: 1.2rem;
+  margin: 0.8rem 0rem;
+}
+.price{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.price h5{
+  font-size: 0.8rem;
+  color: red;
+}
+.delete{
+  border: none;
+  padding: 0.4rem 1rem;
+  background-color: red;
+  
+  color: white;
+  border-radius: 10px;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.editbutton{
+  border: none;
+  padding: 0.4rem 1rem;
+  background-color: rgb(46, 46, 252);
+ 
+  color: white;
+  border-radius: 10px;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+/* section six */
+.six{
+  height: 100vh;
+}
+.sixbottom{
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+.sixbottom .left{
+  background-color: rgb(215, 245, 235);
+  height: 86vh;
+  width: 100%;
+}
+.sixbottom .left form{
+  height: 70%;
+  width: 90%;
+  /* border: 1px solid black; */
+  margin: 1rem 3rem;
+}
+.sixbottom .left form input{
+  width: 85%;
+  height: 2.3rem;
+  border: none;
+  outline-style: none;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin: 0.5rem 2rem;
+}
+.sixbottom .left form textarea{
+  width: 85%;
+  border: none;
+  height: 8rem;
+  outline-style: none;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin: 0.8rem 2rem;
+}
+.sixbottom .left  button{
+  border: none;
+  padding: 0.4rem 2rem;
+  background-color: rgb(74, 37, 237);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 5rem;
+  margin-top: 6.5rem;
+  box-shadow: 0px 2px 3px 0px black;
+  cursor: pointer;
+
+}
+.sixbottom .right .livenewproduct{
+  /* border: 1px solid black; */
+  width: 12.6rem;
+  text-align: center;
+  margin: 4rem 8rem;
+}
+.livenewproduct h3{
+  margin: 1rem;
+}
+.livenewproduct button{
+  border: none;
+  padding: 0.3rem 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(61, 61, 227);
+  border-radius: 10px;
+  color: white;
+  margin-top: 1rem;
+}
+.sixbottom img{
+  height: 10rem;
+  border-radius: 10px;
+}
+.sixbottom .right h1{
+  font-size: 2.5rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+.sixbottom .right p{
+  font-size: 1.4rem;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+/* section seven  */
+.seven{
+  height: 100vh;
+}
+.sevenbottom{
+  /* height: 90vh; */
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+.sevenbottom .left{
+  background-color: rgb(195, 239, 236);
+  height: 90vh;
+  width: 100%;
+}
+.sevenbottom .left form{
+  height: 60%;
+  width: 90%;
+  /* border: 1px solid black; */
+  margin: 2rem 3rem;
+}
+.sevenbottom .left form input{
+  width: 85%;
+  border: none;
+  outline-style: none;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem 2rem;
+  height: 2.3rem;
+}
+.sevenbottom .left form textarea{
+  width: 85%;
+  border: none;
+  outline-style: none;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  margin: 0.8rem 2rem;
+}
+.sevenbottom .left button{
+  border: none;
+  padding: 0.4rem 1.5rem;
+  background-color: rgb(63, 29, 184);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 5rem;
+  margin-top: 7.1rem;
+  box-shadow: 0px 2px 3px 0px black;
+
+}
+.sevenbottom .right .liveupdateproduct{
+  /* border: 1px solid black; */
+  width: 12.6rem;
+  text-align: center;
+  margin: 4rem 8rem;
+}
+.liveupdateproduct h3{
+  margin: 1rem;
+}
+.liveupdateproduct button{
+  border: none;
+  padding: 0.3rem 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(61, 61, 227);
+  border-radius: 10px;
+  color: white;
+  margin-top: 1rem;
+}
+.sevenbottom img{
+  height: 10rem;
+  border-radius: 10px;
+}
+.sevenbottom .right h1{
+  font-size: 2.5rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+.sevenbottom .right p{
+  font-size: 1.4rem;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+

@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif cursive;
+}
+
+.set{
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    width: 98vw;
+    /*padding: 0 1rem;
+    height: 100vh;
+    width: 100vw;
+    height: 50%; */
+}
+
+.left{
+    width: 27%;
+    
+}
+.box{
+    
+    border-radius: 10px;
+}
+
+.left .search{
+
+    height: 1.7rem;
+    width: 80%;
+    text-align: center;
+    background-color:antiquewhite;
+    border-radius: 1rem;
+    /* font-weight: 500; 
+    padding-left: 5rem;
+    padding: 0.5rem 0.9rem ;*/
+    padding: 0.5rem 0.9rem;
+    margin: 1rem;
+    border: none;
+    outline-style: none;
+
+}
+#dude{
+  background: blue;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.7rem 2.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-left: 5rem;
+  
+}
+
+
+
+.left p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    display: grid;
+}
+.left p input{
+    margin:0.5rem 2rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: antiquewhite;
+    height: 1.5rem;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.left h2{
+    margin: 1rem;
+
+}
+.left select{
+    width: 53%;
+    margin: 1rem;
+    height: 2.3rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.left .button{
+    border-radius: 10px;
+    border: none;
+    background: royalblue;
+    color: white;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem;
+    padding-left: 1.3rem;
+    margin: 1rem;
+    margin-left: 3rem;
+    /*padding-left:3rem ;*/
+    
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left #cat{
+    text-align: center;
+    font-size: 2rem;
+
+}
+.left .productsCat{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 35%;
+}
+
+.left .b1{
+    border-radius: 10px;
+    border: none;
+    background: royalblue;
+    color: white;
+    text-align: center;
+    height: 2.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem 1.3rem;
+    
+    margin: 1rem;
+    /*padding-left:3rem ;*/
+    cursor: pointer;
+}
+.left .b2{
+    border-radius: 10px;
+    border: none;
+    background: rgb(247, 247, 46);
+    color: white;
+    
+    text-align: center;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem 1.3rem;
+    margin: 1rem;
+    /*padding-left:3rem ;*/
+    
+    cursor: pointer;
+}
+.left .b3{
+    border-radius: 10px;
+    border: none;
+    background: rgb(91, 225, 158);
+    color: white;
+    
+    text-align: center;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem 1.3rem;
+    
+    margin: 1rem;
+    /*padding-left:3rem ;*/
+    
+    cursor: pointer;
+}
+.left .b4{
+    border-radius: 10px;
+    border: none;
+    background: rgb(221, 92, 174);
+    color: white;
+    
+    text-align: center;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem 1.3rem;
+    margin: 1rem;
+    /*padding-left:3rem ;*/
+    
+    cursor: pointer;
+    
+}
+.category{
+  margin-top: 5rem;
+}
+.set .left{
+  
+  overflow-x: auto;
+  overflow-y: auto;
+}
+.set .left::-webkit-scrollbar{
+  display: none;
+}
+.right{
+    padding: 0.3rem 0.7rem;
+    padding-left: 2rem;
+    
+}
+.right .boxes .box img{
+    height: 15vh;
+    width: 20vh;
+    padding: 0.5rem 0.5rem;
+}
+.right .boxes .box{
+    text-align: center;
+    background: rgb(237, 228, 211);
+    border-radius: 2px solid rgb(218, 217, 217);
+}
+
+/*.boxes{
+    display: flex;
+    gap: 2.5rem;
+    padding: 0.2rem;
+}*/
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2.2rem;
+    padding: 0.2rem;
+}
+
+.right h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.right .boxes .box button{
+    border-radius: 10px;
+    border: none;
+    background: royalblue;
+    color: white;
+    width: 70%;
+    height: 2rem;
+    font-weight: 600;
+    margin: 0.7rem;
+    cursor: pointer;
+ 
+}
+.hello{
+    border-radius: 10px;
+    border: none;
+    background: royalblue;
+    color: white;
+    width: 70%;
+    height: 2rem;
+    font-weight: 600;
+    margin: 0.7rem;
+    cursor: pointer;
+ 
+}
+
+.right p{
+    color: royalblue;
+    font-weight: 600;
+    padding: 10px 10px 0px 30px; ;
+}
+.right p span{
+    color: green;
+    font-size: 11px;
+}
+.right .box h3{
+    padding-left: 10px;
+}
+
+
+.one{
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  
+}
+
+button {
+  cursor: pointer;
+}
+.mic{
+  margin-left: 3rem;
+}
+#creatingTable{
+  margin-left: 4rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.mic h1{
+  margin-top: 4rem;
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+
+#d{
+  background: blue;
+  font-size: 1rem;
+  outline: none;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.ss img {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.ss {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  background-color: rgb(214, 214, 43);
+}
+.ss .ssleft {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-evenly;
+  width: 25%;
+  font-family: "Sriracha", cursive;
+}
+
+.ss .ssright {
+  width: 75%;
+  display: flex;
+  gap: 3rem;
+  justify-content: flex-end;
+  margin:2rem;
+  padding-right: 5rem;
+}
+.ssright button {
+  height: 140%;
+  width: 180%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ssdown {
+  height: 77vh;
+  display: flex;
+  width: 70%;
+  
+
+}
+.ssdown .left {
+  width: 70%;
+  margin: 5rem;
+}
+
+
+.ssdown .right{
+  width: 30%;
+  padding-left: 15rem;
+}
+.ssdown .right img{
+  align-items: center;
+}
+
+.cart table,tr,th,td{
+  border: 1.5px solid black;
+  padding: 0.3rem;
+  
+}
+.lastpage{
+  display: none;
+  height: 100vh;
+}
+
+.headersection{
+  display: flex;
+  height: 10vh;
+  padding: 1rem;
+  background-color: #feea61;
+  margin-top: 0.2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.headersection .left{
+  display: flex;
+  align-items: center;
+}
+.headersection .left img{
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+.headersection .left h2{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.headersection .right{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+}
+.headersection .right button{
+  padding: 0.4rem 2rem;
+  border: none;
+  color: blue;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+.headersection .right button:hover{
+  background-color: rgb(248, 35, 35);
+  color: white;
+}
+#cartimg{
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+
+}
+#userimg{
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+
+}
+
+.lastpage .purchasedproducts{
+  margin-top: 4rem;
+  background-color: rgb(147, 241, 241);
+  margin-left: 2rem;
+  
+  border-radius: 10px;
+  height: 12rem;
+  width: 90%;
+  height: 40%;
+  display: grid;
+  grid-template-columns: repeat(6 , 2fr);
+}
+
+.pp img{
+ height: 8rem;
+ padding: 0.5rem;
+ border-radius: 13px;
+}
+.lastpage .bottom{
+  margin-left: 2rem;
+}
+.pp h4{
+  
+  color: red;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+
+
+

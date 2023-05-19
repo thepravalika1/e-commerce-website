@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./shopstyle3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+<body>
+    <section class="five">
+        <header class="header">
+            <div class="left">
+              <img src="./images/logo.png" alt="">
+              <h2>STAR SHOPPER</h2>
+            </div>
+            <div class="right">
+              <img id="cartimg" src="./images/shopping-cart.png" alt=""> 
+              <img class="isitwork" id="userimg" src="./images/user.png" alt="">
+              <a href="./index.html"><button class="logoutbuttons ">Log Out</button></a>
+            </div>
+          </header>
+          <div class="gow">
+            <div class="left">
+              <h1>SALES PERFORMANCES</h1>
+              
+              <h1>THIS MONTH GOAL</h1>
+              <img src="./images/this_month_goal-removebg-preview.png" alt="" height="100px">
+            </div>
+            <div class="right">
+                <div class="top">
+                    <h1>YOUR PRODUCTS</h1>
+                    <button id="addnewproductbutton">Add New Product</button>
+                </div>
+                <div class="bottom" id="newlyaddedproductswillseeninthisdiv">
+                    <div class="products">
+                        <img src="https://picsum.photos/202" alt="">
+                        <h4>product title</h4>
+                        <div class="price">
+                          <h2>499/-</h2>
+                          <h5>(18% OFF)</h5> <br>
+                        </div>
+                        <button class="delete">Delete</button>
+                        <button class="editbutton">Edit</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+    <section class="six">
+        <header class="header">
+            <div class="left">
+              <img src="./images/logo.png" alt="">
+              <h2>STAR SHOPPER</h2>
+            </div>
+            <div class="right">
+              <img id="cartimg" src="./images/shopping-cart.png" alt=""> 
+              <img class="isitwork" id="userimg" src="./images/user.png" alt="">
+              <a href="./index.html"><button id="logoutbutton ">Log Out</button></a>
+            </div>
+          </header>
+          <div class="sixbottom">
+            <div class="left">
+             <form action="">
+                 <input id="newtitle" type="text" placeholder="product title" > <br>
+                 <input id="newcategory" type="text" placeholder="product category"> <br>
+                 <textarea  name="" id="newdescription" cols="20" rows="6" placeholder="product description"></textarea> <br>
+                 <input id="newprice" type="text" placeholder="product price"> 
+                 <input id="newdiscount" type="text" placeholder="product discount"> <br>
+                 <input id="newimage" type="text" placeholder="product image URL"> <br>
+             </form>
+             <button id="isitworks">Add product</button>
+            </div>
+            <div class="right">
+                <h1>Live Preview</h1>
+                <p>This,is how your coustmers will <br> see your product on the website</p>
+                <div class="livenewproduct">
+                    <img id="liveimage" src="https://picsum.photos/202" alt="">
+                    <h3 id="livetitle">Product Title</h3>
+                    <div class="price">
+                        <h2 id="liveprice">199/-</h2>
+                        <h6 id="livediscount">(6% OFF)</h6>
+                        
+                    </div>
+                    <button>add to cart</button>
+                </div>
+            </div>
+          </div>
+    </section>
+    <!-- update product section -->
+    <section class="seven">
+        <header class="header">
+            <div class="left">
+              <img src="./images/logo.png" alt="">
+              <h2>STAR SHOPPER</h2>
+            </div>
+            <div class="right">
+              <img id="cartimg" src="./images/shopping-cart.png" alt="">
+              <img class="isitwork" id="userimg" src="./images/user.png" alt="">
+             <a href="./index.html"><button id="logoutbutton ">Log Out</button></a> 
+            </div>
+          </header>
+          <div class="sevenbottom">
+             <div class="left">
+                <form action="">
+                    <input id="updatetitle" type="text" placeholder="product title"> <br>
+                    <input id="updatecategory" type="text" placeholder="product category"> <br>
+                    <textarea name="" id="updatedescription" cols="20" rows="6" placeholder="product description"></textarea> <br>
+                    <input id="updateprice" type="text" placeholder="product price"> 
+                    <input id="updatediscount" type="text" placeholder="product discount"> <br>
+                    <input id="updateimage" type="text" placeholder="product image URL"> <br>
+                </form>
+                <button id="productupdatebutton">update product</button>
+              </div>
+             <div class="right">
+                <h1>Live Preview</h1>
+                <p>This,is how your coustmers will <br> see your product on the website</p>
+                <div class="liveupdateproduct">
+                    <img id="updateliveimage" src="https://picsum.photos/202" alt="">
+                    <h3 id="updatelivetitle">product title</h3>
+                    <div class="price">
+                        <h2 id="updateliveprice">200/-</h2>
+                        <h6 id="updatelivediscount">(10% OFF)</h6>
+                        
+                    </div>
+                    <button>add to cart</button>
+                </div>
+             </div>
+          </div>
+    </section>
+</body>
+<script type="module" src="./shopscript3.js"></script>
+</html>
